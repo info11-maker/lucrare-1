@@ -1,0 +1,37 @@
+body{
+	background:yellow;
+}
+h1{
+	color: red;
+}
+img{
+	width:200px;
+}
+.border{
+	border: 5px dashed red;
+	width: 50%;
+	height: 120px;
+}
+ .navbar ul{
+	background:red;
+	line-height:50px;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	width: 500px;
+}
+.navbar li{
+	color: white;
+	margin: auto;
+	line-height:25px;
+	padding: 2px 15px;
+	margin: 5px;
+}
+.navbar li:first-child:hover{
+	color:black;
+	border-radius: 15px;
+	background:blue;
+}
+img{
+	border:5px solid green;
+}
